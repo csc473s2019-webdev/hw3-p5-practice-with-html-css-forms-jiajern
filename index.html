@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,18 @@
     <title>Survey</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <h1 id="title">Survey Form</h1>
     <p id="description">GIVE ME YOUR INFO</p>
     <form action="" id="survey-form">
-
+        <!-- Name -->
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <!-- Email -->
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        
 
     </form>
 
@@ -20,4 +28,5 @@
     <!-- needed for testing -->
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
