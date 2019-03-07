@@ -16,7 +16,7 @@
 - [x] **User Story #12**: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown".
 - [x] **User Story #13**: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.
 - [x] **User Story #14**: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
-- [ ] **User Story #15**: Inside the form element, I am presented with a textarea at the end for additional comments.
+- [x] **User Story #15**: Inside the form element, I am presented with a textarea at the end for additional comments.
 - [ ] **User Story #16**: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
 ### You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js
 ### Once you're done, submit the URL to your working project with all its tests passing.

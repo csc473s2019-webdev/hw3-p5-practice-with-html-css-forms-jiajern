@@ -10,52 +10,78 @@
 </head>
 
 <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">GIVE ME YOUR INFO</p>
-    <form action="" id="survey-form">
-        <!-- Name -->
-        <label for="name" id="name-label">Name:</label>
-        <input type="text" id="name" placeholder="Enter your name" required>
-        <!-- Email -->
-        <label for="email" id="email-label">Email:</label>
-        <input type="email" id="email" placeholder="What's your email" required>
-        <!-- number -->
-        <label for="weight" id="number-label">Weight(kg):</label>
-        <input type="number" id="number" placeholder="Tell me your weight!" min="5" max="200" required>
-        <!-- dropdown -->
-        <label for="status">What is your status?</label>
-        <select name="status" id="dropdown">
-            <option value="Single">I'm single</option>
-            <option value="Taken">I'm taken</option>
-            <option value="Widow">I'm a widow</option>
-            <option value="TBA">Taken but available</option>
-        </select>
-        <!-- radio -->
-        <label for="gender">Gender:</label>
-        <div>
-            <input type="radio" name="gender" value="male" id="male">Male
-            <input type="radio" name="gender" value="female" id="female">Female
-            <input type="radio" name="gender" value="neither" id="neither">Neither
-        </div>
-        <!-- checkbox -->
-        <label for="genre">Your favorite genre:</label>
-        <div class="block">
-            <input type="checkbox" name="genre" value="Blues">Blues
-            <input type="checkbox" name="genre" value="Classical">Classical
-            <input type="checkbox" name="genre" value="Country">Country
-            <input type="checkbox" name="genre" value="EDM">EDM
-            <input type="checkbox" name="genre" value="Folk">Folk
-            <input type="checkbox" name="genre" value="Hip-Hop">Hip-Hop
-            <input type="checkbox" name="genre" value="Industrial">Industrial
-            <input type="checkbox" name="genre" value="J-Pop">J-Pop
-            <input type="checkbox" name="genre" value="Jazz">Jazz
-            <input type="checkbox" name="genre" value="k-Pop">k-Pop
-            <input type="checkbox" name="genre" value="Pop">Pop
-            <input type="checkbox" name="genre" value="R&B">R&B
-            <input type="checkbox" name="genre" value="Rock">Rock
-        </div>
-
-    </form>
+    <div>
+        <h1 id="title">Survey Form</h1>
+    </div>
+    <div>
+        <p id="description">GIVE ME YOUR INFO</p>
+    </div>
+    <div>
+        <form action="" id="survey-form">
+            <!-- Name -->
+            <div>
+                <label for="name" id="name-label">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+            </div>
+            <!-- Email -->
+            <div>
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" id="email" placeholder="What's your email" required>
+            </div>
+            <!-- number -->
+            <div>
+                <label for="weight" id="number-label">Weight(kg):</label>
+                <input type="number" id="number" placeholder="Tell me your weight!" min="5" max="200" required>
+            </div>
+            <!-- dropdown -->
+            <div>
+                <label for="status">What is your status?</label>
+                <select name="status" id="dropdown">
+                    <option value="Single">I'm single</option>
+                    <option value="Taken">I'm taken</option>
+                    <option value="Widow">I'm a widow</option>
+                    <option value="TBA">Taken but available</option>
+                </select>
+            </div>
+            <!-- radio -->
+            <div>
+                <label for="gender">Gender:</label>
+                <div>
+                    <input type="radio" name="gender" value="male" id="male">Male
+                    <input type="radio" name="gender" value="female" id="female">Female
+                    <input type="radio" name="gender" value="neither" id="neither">Neither
+                </div>
+            </div>
+            <!-- checkbox -->
+            <div>
+                <label for="type">Your favorite type:</label>
+                <div class="block">
+                    <input type="checkbox" name="type" value="Male">Male
+                    <input type="checkbox" name="type" value="Female">Female
+                    <input type="checkbox" name="type" value="Lhair">Long Hair
+                    <input type="checkbox" name="type" value="Shair">Short Hair
+                    <input type="checkbox" name="type" value="Blonde">Blonde
+                    <input type="checkbox" name="type" value="Blue-eye">Blue eye
+                    <input type="checkbox" name="type" value="Tall">Tall
+                    <input type="checkbox" name="type" value="Short">Shorts
+                </div>
+            </div>
+            <!-- text area -->
+            <div>
+                <label for="message">
+                    <br> Let me know more about you.
+                    <br> Maybe leave your phone number
+                    <br> so we can know each other.
+                    <br>
+                </label>
+            </div>
+            <div>
+                <textarea name="message" id="message" cols="70" rows="20"></textarea>
+            </div>
+            <!-- submit button -->
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </div>
 
 
 
