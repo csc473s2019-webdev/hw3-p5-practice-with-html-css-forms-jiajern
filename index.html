@@ -20,8 +20,16 @@
         <label for="email" id="email-label">Email:</label>
         <input type="email" id="email" placeholder="What's your email" required>
         <!-- number -->
-        <label for="weight" id="number-label">Weight:</label>
-        <input type="number" id="number" placeholder="Tell me your weight!" min="1" max="110" required>
+        <label for="weight" id="number-label">Weight(kg):</label>
+        <input type="number" id="number" placeholder="Tell me your weight!" min="5" max="200" required>
+        <!-- dropdown -->
+        <label for="status">What is your status?</label>
+        <select name="status" id="dropdown">
+            <option value="Single">I'm single</option>
+            <option value="Taken">I'm taken</option>
+            <option value="Widow">I'm a widow</option>
+            <option value="TBA">Taken but available</option>
+        </select>
 
     </form>
 
